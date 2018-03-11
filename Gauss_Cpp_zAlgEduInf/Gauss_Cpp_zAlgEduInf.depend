@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1518210917 source:c:\users\pljanigas\documents\cpp\gauss_cpp_zalgeduinf\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	<cmath>
+

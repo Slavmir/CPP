@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1520326872 source:c:\users\pljanigas\documents\cpp\dec_2_hex\main.cpp
+	"pre_proc.hxx"
+	"CLASS_Hex_Dec_Bin.h"
+
+1520326956 source:c:\users\pljanigas\documents\cpp\dec_2_hex\class_hex_dec_bin.cpp
+	"CLASS_Hex_Dec_Bin.h"
+	"pre_proc.hxx"
+	<iostream>
+	<vector>
+	<algorithm>
+	<iterator>
+
+1520335767 c:\users\pljanigas\documents\cpp\dec_2_hex\class_hex_dec_bin.h
+
+1520335130 c:\users\pljanigas\documents\cpp\dec_2_hex\pre_proc.hxx
+	"CLASS_Hex_Dec_Bin.h"
+	<iostream>
+	<vector>
+	<algorithm>
+	<iterator>
+	<fstream>
+

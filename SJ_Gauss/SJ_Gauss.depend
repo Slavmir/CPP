@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511510708 source:c:\users\pljanigas\documents\cpp\sj_gauss\main.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1516900431 source:c:\users\pljanigas\documents\cpp\test\main.cpp
+	<iostream>
+	<cassert>
+	<ctime>
+	<cstdlib>
+

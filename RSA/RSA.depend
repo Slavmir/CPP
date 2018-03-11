@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1520200684 source:c:\users\pljanigas\documents\cpp\rsa\main.cpp
+	"pre_proc_definitions.hpp"
+
+1519339337 c:\users\pljanigas\documents\cpp\rsa\pre_proc_definitions.hpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+

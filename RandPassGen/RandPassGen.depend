@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1518296871 source:c:\users\pljanigas\documents\cpp\randpassgen\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<windows.h>
+

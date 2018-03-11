@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1516815162 source:c:\users\pljanigas\documents\cpp\ag\main.cpp
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<ctime>
+	<windows.h>
+

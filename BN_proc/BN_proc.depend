@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1519297782 source:c:\users\pljanigas\documents\cpp\bn_proc\main.cpp
+	"pre_proc.hpp"
+
+1519142526 c:\users\pljanigas\documents\cpp\bn_proc\pre_proc.hpp
+	<iostream>
+	<string>
+	<chrono>
+	<random>
+

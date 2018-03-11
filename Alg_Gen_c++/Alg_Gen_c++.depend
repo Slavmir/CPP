@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1517953577 source:c:\users\pljanigas\documents\cpp\alg_gen_c++\main.cpp
+	"pre_proc.hpp"
+
+1517953659 c:\users\pljanigas\documents\cpp\alg_gen_c++\pre_proc.hpp
+	<iostream>
+	<ctime>
+	<cmath>
+	<cstdlib>
+

@@ -28,6 +28,7 @@ float xmin[n] = {0,0};
 float xmax[n] = {20, 20};
 #define ksi01() (float)rand()/RAND_MAX
 
+
 float f(float x[n]); //prototyp funkcja przystosowania
 void gen_pierwsza_populacje(int chr[lop][n*m]); //prttp generuj 1 generacje
 void drukuj_1sza_pop(int chr[lop][n*m]); //prttp

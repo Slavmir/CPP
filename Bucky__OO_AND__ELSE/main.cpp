@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-///-------template funkcji z jednym param-----------------------------------------------------------------------------------
+///-------function template with 1 param-----------------------------------------------------------------------------------
 /
 template <class tmplt> //template definition building a generic type of data
 tmplt add2numbers(tmplt a, tmplt b){
@@ -16,7 +16,7 @@ int main()
         return (0);
 }
 */
-///------template funkcji z dwoma paramnetrami------------------------------------------------------------------------------------
+///------Function template wit 2 parameters------------------------------------------------
 /**
 template <class Tmpl, class Und>
 Tmpl smaller(Tmpl a, Und b){
@@ -42,17 +42,17 @@ class class1
             first = a;
             second = b;
         }
-        T bigger(); //funkcja w template klasy
+        T bigger(); //function in class template
 };
 
-template <class T> //przed kada funkcja - deklaracja templatu klasy <c++ specific>
-T class1<T>::bigger(){  //<T> podajemy template parametr ten sam co uzyty w klasie!! <c++ specific>
+template <class T> //before every class function call - class template init<c++ specific>
+T class1<T>::bigger(){  //<T> use the same template [arameter that's used in class <c++ specific>
         return (first>second?first:second);
 }
 
 int main()
 {
-        class1 <int> _accessObject(69, 106); //przy class template musimy uzyc typu danych, czego tu uzyjemy <typ> to wszytskie T beda tego typu
+        class1 <int> _accessObject(69, 106); //with class template we use the same data type here - what type of data we declared for T will be used here
         cout << _accessObject.bigger();
 }
 

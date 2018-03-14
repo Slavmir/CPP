@@ -1,3 +1,5 @@
+// NOT MY CODE -- I have absolutely no idea why it's here and what for ...
+
 #include <iostream>
 #include <cmath>
 

@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+#include <windows.h>
 
 class ArmstrongNumbersClass
 {
@@ -7,6 +9,7 @@ class ArmstrongNumbersClass
     public:
         void ArmstrongNumberCheck();
         void ArmstrongNumberBetweenIntervals();
+        void menu();
 };
 
 void ArmstrongNumbersClass::ArmstrongNumberCheck(){
@@ -47,15 +50,64 @@ void ArmstrongNumbersClass::ArmstrongNumberBetweenIntervals(){
         }
 }
 
-int main()
-{
+void ArmstrongNumbersClass::menu(){
+        int ans;
+        char ansQuit;
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+        std::cout << "Armstrong numbers. Select from below available options." << std::endl;
+        std::cout << "-------------------------------------------------------" << std::endl;
         std::cout << "1. Check if number is an Armstrong number:" << std::endl;
-        ArmstrongNumbersClass _armstrongNumbersObject;
-        _armstrongNumbersObject.ArmstrongNumberCheck();
         std::cout << "2. Check Armstrong numbers between an interval:" << std::endl;
-        ArmstrongNumbersClass _accessObjectInterval;
-        _accessObjectInterval.ArmstrongNumberBetweenIntervals();
+        std::cout << "0. Exit program" << std::endl;
+        std::cout << "-------------------------------------------------------" << std::endl;
+        std::cin >> ans;
+        switch(ans)
+        {
+        case 1:
+            system("cls");
+            //ArmstrongNumbersClass _armstrongNumbersObject; -- not required to init object and load function with the use of object
+            ArmstrongNumberCheck();
+            std::cout << "Done" << std::endl;
+            std::cout << "Try again?";
+            std::cin >> ansQuit;
+            if(ansQuit == 'Y' || ansQuit == 'y'){
+                system("cls");
+                menu();
+            }
+            else
+                exit (1);
+            break;
+
+        case 2:
+            system("cls");
+            //ArmstrongNumbersClass _accessObjectInterval; -- not required to init object and load function with the use of object
+            ArmstrongNumberBetweenIntervals();
+            std::cout << "Done" << std::endl;
+            if(ansQuit == 'Y' || ansQuit == 'y'){
+                system("cls");
+                menu();
+            }
+            else
+                exit (1);
+            break;
+
+        case 0:
+            system("cls");
+            std::cout << "SenkJu bye... !!! " << std::endl;
+            break;
+
+        default:
+            std::cout << "Wrong selection" << std::endl;
+            system("cls");
+            menu();
+        }
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 }
 
+int main(int argc, char ** argv)
+{
+        ArmstrongNumbersClass _mainArmstrongObject;
+        _mainArmstrongObject.menu();
 
+}
 //Prog A -- was.lukasz@gmail.com

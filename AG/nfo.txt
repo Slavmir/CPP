@@ -1,0 +1,1 @@
+Simple genetical algorithm with population generation and population assessment

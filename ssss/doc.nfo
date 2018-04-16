@@ -1,0 +1,1 @@
+Genrate a random number with mt19937_64 and check if it's prime ... mostly used when working on the RSA

@@ -1,0 +1,1 @@
+Sieve of Eratosthenes to generato some prime numbers from a certain interval... procedural paradigm. Next implement in OOP.
